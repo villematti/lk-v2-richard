@@ -1,0 +1,478 @@
+/*
+.table{
+	margin-bottom: 0;
+}
+
+.table>tbody>tr:first-of-type>td{
+	border-top: none !important;
+}
+
+.table>tbody>tr>td{
+	vertical-align: middle;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.table>tbody>tr>td:first-child{
+	padding-left: 10px;
+}
+
+.table>tbody>tr>td:last-child{
+	padding-right: 10px;
+}
+
+.col-md-8 .panel.panel-default .panel-body{
+	padding: 0;
+}
+
+.btn-appl-fr-jb{
+	font-size: 12px;
+    padding: 0 37px;
+    position: relative;
+    top: 3px;
+    border-radius: 3px;
+    background-color: #02aa6f;
+    border-color: #02aa6f;
+}
+
+.date-btn{
+	font-size: 15px;
+    color: #515151;
+}
+
+.loct-5{
+	line-height: 1.8 !important;
+	font-size: 15px;
+    color: #515151;
+    
+}
+
+.table .media .media-heading{
+	font-size: 19px;
+    color: #515151;
+    font-weight: bold;
+}
+
+.i-stff{
+	font-size: 15px;
+    color: #515151;
+}
+
+.table .media-body{
+	position: relative;
+	top: 5px;
+}
+
+@media screen and (min-width:768px){
+	
+	.table .media-body{
+		padding-left: 12px;
+	}
+
+	.table>tbody>tr>td{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.table>tbody>tr>td:first-child{
+		padding-left: 28px;
+	}
+
+	.table>tbody>tr>td:last-child{
+		padding-right: 20px;
+		padding-left: 0;
+	}
+}*/
+
+
+/******************************************************************************************************************/
+
+.cntnt-wrkrs .containr-wll{
+	padding: 8px;
+	background-color: #ffffff;
+}
+
+.cntnt-wrkrs .containr-wll .media img{
+	border: 3px solid #ffffff;
+	border-radius: 100px;
+	position: relative;
+	top: -30px;
+	left: 5px;
+}
+
+.cntnt-wrkrs .media{
+	overflow: visible;
+}
+
+.cntnt-wrkrs .media .media-heading{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.cntnt-wrkrs .media .media-body{
+	padding-left: 5px;
+	line-height: 1;
+}
+
+.cntnt-wrkrs .media .media-body>span{
+	font-size: 12.6px;
+	color: #7F8FA4;
+}
+
+.cntnt-wrkrs .media .media-body>.media-heading{
+	font-size: 15px;
+	color: #354052;
+}
+
+.cntnt-wrkrs .well .hor-line-cntent{
+	margin-top: -20px;
+	margin-bottom: 10px;
+}
+
+.cntnt-wrkrs .well button{
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	border-color: #03a66d;
+    background-color: #03a66d;
+}
+
+.side-fix{
+	position: relative;
+}
+
+.fav-add{
+	font-size: 12px;
+	margin-top: 8px;
+	font-weight: bold;
+	color: #335980;
+	text-align: center;
+}
+
+.containr-wll .row .col-md-6.col-sm-6.col-xs-6>a{
+	text-decoration: none;
+}
+
+.cntnt-wrkrs div.col-md-4.col-sm-6.col-xs-12{
+	padding-bottom: 8px;
+}
+
+.bg-covr-img{
+    background-image: url('/img/front-page-image/iStock_89416417_LARGE.png');
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: top;
+    background-size: cover;
+    min-height: 120px;
+    padding: 20px;
+    text-align: center;
+}
+
+.bg-covr-img img{
+	height: 40px;
+	width: 40px;
+	margin-top: 15px;
+}
+
+.drg-foldr .well.drg-accptd,
+.drg-foldr .well.drg-not-accptd{
+	height: 170px;
+	width: 100%;
+	text-align: center;
+}
+
+.drg-foldr .well.drg-accptd>img,
+.drg-foldr .well.drg-not-accptd>img{
+	margin-top: 20px;
+}
+
+.drg-not-accptd h3,
+.drg-accptd h3{
+	font-size: 18px;
+	color: #515151;
+}
+
+
+.drg-foldr .accptd>p,
+.drg-foldr .not-accptd>p{
+	font-size: 12px;
+	margin-bottom: 3px;
+	color: #565656;
+}
+
+.well.drg-accptd>.glyphicon.glyphicon-ok{
+	font-size: 30px;
+	color: #03a66d;
+	padding: 10px;
+	border:2px solid #e3e3e3;
+	border-radius: 40px;
+	background-color: #ffffff;
+	margin-top: 40px;
+}
+
+.well.drg-not-accptd>.glyphicon.glyphicon-remove{
+	font-size: 30px;
+	color: red;
+	padding: 10px;
+	border:2px solid #e3e3e3;
+	border-radius: 40px;
+	background-color: #ffffff;
+	margin-top: 40px;
+}
+
+.row .some-padd .glyphicon.glyphicon-star{
+	margin-right: 5px;
+    border: 1px solid #335980;
+    padding: 2px;
+    background: #335980;
+    border-radius: 40px;
+    font-size: 8px !important;
+    color: #ffffff;
+    vertical-align: top;
+}
+
+.row .some-padd{
+	padding-left: 0;
+}
+
+.send-msg a>.media{
+	color: #565656;
+	font-size: 12px;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.send-msg a{
+	text-decoration: none;
+}
+
+.send-msg{
+	position: relative;
+	top: -13px;
+}
+
+.send-msg .glyphicon.glyphicon-envelope{
+	color: #8d909f !important;
+}
+
+/* centering modal */
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/*Sending message modal*/
+
+#modalMsg .modal-content .modal-header{
+	text-align: center !important;
+	background-color: #03a66d;
+	color: #ffffff;
+	padding-bottom: 10px;
+}
+
+#modalMsg .modal-dialog{
+	margin-top: 65px !important;
+}
+
+#modalMsg .modal-content .modal-header>img{
+	text-align: center !important;
+	position: relative;
+	top: -62px;
+	border: 3px solid #ffffff;
+    border-radius: 100px;
+}
+
+#modalMsg .modal-content{
+	text-align: center;
+}
+
+.header-txt{
+	margin-top: -60px;
+}
+
+.header-txt h4{
+	font-size: 20px;
+} 
+
+.header-txt p{
+	font-size: 15px;
+}
+
+#modalMsg .modal-header .close{
+	color: #ffffff;
+}
+
+#modalMsg .modal-body .well{
+	padding: 5px;
+	background-color: #ffffff;
+	margin-bottom: 0;
+}
+
+.drg-photo-vdeo-msg{
+	border: 2px dashed #e3e3e3;
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+	color: #7f90a4;
+	border-radius: 5px;
+}
+
+.drg-photo-vdeo-msg .glyphicon.glyphicon-cloud-upload{
+	font-size: 50px;
+}
+
+#modalMsg .modal-body .form-group label{
+	float: left;
+	color: #7f90a4;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.info-msg{
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	color: #858b97;
+}
+
+#modalMsg .modal-footer{
+	text-align: center;
+	background-color: #f0f3f8;
+}
+
+#modalMsg .modal-footer>button{
+	padding: 5px 50px;
+	background-color: #03a66d;
+	border-color: #03a66d;
+}
+
+#modalMsg .modal-footer>button:hover{
+	background-color: #028356;
+	border-color: #028356;
+}
+
+/*Group modal message for ACCEPTED candidates*/
+
+#modalMsg-AccptdCand .modal-header{
+	background-color: #03a66d;
+}
+
+#modalMsg-AccptdCand .modal-header>.modal-title{
+	color: #ffffff;
+	font-size: 17px;
+	text-align: center;
+}
+
+#modalMsg-AccptdCand .modal-header button.close{
+	color: #ffffff;
+}
+
+.modal-body{
+	padding: 20px 20px 15px 20px;
+}
+
+#modalMsg-AccptdCand .modal-body .well {
+    padding: 5px;
+    background-color: #ffffff;
+    margin-bottom: 0;
+}
+
+#modalMsg-AccptdCand .modal-footer {
+    text-align: center;
+    background-color: #f0f3f8;
+}
+
+.modal-footer{
+	border:none;
+}
+
+#modalMsg-AccptdCand .modal-body .form-group label {
+    float: left;
+    color: #7f90a4;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#modalMsg-AccptdCand .modal-footer>button {
+    padding: 5px 50px;
+    background-color: #03a66d;
+    border-color: #03a66d;
+}
+
+#modalMsg-AccptdCand .modal-footer>button:hover {
+    background-color: #028356;
+    border-color: #028356;
+}
+
+/*Group modal message for ACCEPTED candidates*/
+
+#modalMsg-notAccptdCand .modal-header{
+	background-color: #ff594d;
+	
+}
+
+#modalMsg-notAccptdCand .modal-header .modal-title{
+	color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+}
+
+#modalMsg-notAccptdCand .modal-body .well {
+    padding: 5px;
+    background-color: #ffffff;
+    margin-bottom: 0;
+}
+
+#modalMsg-notAccptdCand .modal-body .form-group label {
+    float: left;
+    color: #7f90a4;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#modalMsg-notAccptdCand .modal-footer {
+    text-align: center;
+    background-color: #f0f3f8;
+}
+
+#modalMsg-notAccptdCand .modal-footer>button {
+    padding: 5px 50px;
+    background-color: #03a66d;
+    border-color: #03a66d;
+}
+
+#modalMsg-notAccptdCand .modal-footer>button:hover {
+    background-color: #028356;
+    border-color: #028356;
+}
+
+#modalMsg-notAccptdCand .modal-header button.close {
+    color: #ffffff;
+}
+
+@media (min-width: 992px){
+	.side-fix{
+		padding:0;
+	}
+}
+
+@media (min-width: 768px){
+	.modal-dialog {
+	    width: 400px;
+	}
+}

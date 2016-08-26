@@ -1,0 +1,214 @@
+html, body{
+	height: 100%;
+	overflow-x: hidden;
+}
+
+/*Welcome/Grweetings*/
+.greetings-row{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.greetings-row h3{
+	font-size: 26px;
+	color: #354052;
+}
+
+.greetings-row p{
+	font-size: 16px;
+	color: #7F8FA4;
+}
+
+/*Category options*/
+.category-options-row{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.category-options-row img{
+	height: 100px;
+	width: 100px;
+}
+
+.category-options-row .well{
+	background-color: #ffffff;
+	border: 1px solid #E6EAEE;
+	webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 55px;
+    padding-bottom: 35px;
+}
+
+.category-options-row button{
+	width: 170px;
+	background-color: #03a66d;
+	border-color: #03a66d;
+	font-size: 14px;
+}
+
+.category-options-row button:hover,
+.category-options-row button:focus{
+	color: #03a66d;
+	background-color: transparent;
+	border-color: #03a66d;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.category-options-row p{
+	font-weight: bold;
+	font-size: 16px;
+	color: #354052;
+	letter-spacing: −0.21px;
+	line-height: 21px;
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+
+/*Messages and News Section*/
+
+.messages-row{
+	padding-top: 10px;
+	padding-bottom: 60px;
+}
+
+.messages-row .well{
+	min-height: 457px;
+	background-color: #ffffff;
+	webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.messages-row .well .news-p{
+	font-size: 16px;
+	font-weight: bold;
+	color: #354052;
+	line-height: 22px;
+}
+
+.messages-row .well span{
+	font-size: 14px;
+	color: #7F8FA4;
+}
+
+.messages-row h3{
+	font-size: 24px;
+	color: #354052;
+}
+
+.messages-row button{
+	float: right;
+	width: 170px;
+    background-color: #03ab70;
+    border-color: #03ab70;
+    font-size: 14px;
+}
+
+.messages-row button:hover,
+.messages-row button:focus{
+	background-color: transparent;
+	border-color: #03ab70;
+	color: #03ab70;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+    transition: all .5s ease;
+
+}
+
+.messages-row .list-item{
+	padding-bottom: 15px;
+}
+
+.messages-row img{
+	height: 50px;
+	width: 50px;
+}
+
+.last-msg-date{
+	float: right !important;
+    position: relative;
+    top: 14px;
+	color: #7F8FA4
+}
+
+.msg-user-name{
+	padding-left: 20px;
+	font-size: 16px;
+	color: #354052;
+	font-weight: bold;
+}
+
+.messages-row .list-group-item{
+	padding: 18px 30px 3px 30px;
+	border-top: 0 none;
+}
+
+.messages-row .list-group-item:first-child{
+	border: none;
+	border-top: 1px solid #ddd !important;
+	border-right: 1px solid #ddd !important;
+	border-left: 1px solid #ddd !important;
+}
+
+.messages-row .list-group-item:last-child{
+	padding-bottom: 20px;
+}
+
+.list-group-item:last-child>hr{
+	display: none;
+}
+
+.hr-msg{
+	margin-bottom: 0;
+}
+
+.messages-row .list-group-item>a{
+	text-decoration: none;
+}
+
+.messages-row .list-group-item .msg-user-name:hover,
+.messages-row .list-group-item .msg-user-name:focus,
+.messages-row .list-group-item .msg-user-name:link{
+	color: #7F8FA4;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+/*medium devices*/
+@media screen and (min-width:768px){
+
+	.messages-row h3{
+		padding-bottom: 10px;
+	}
+
+	.messages-row .well span{
+		padding-left: 20px;
+	}
+}
+
+/*large Devices*/
+@media screen and (min-width:991px){
+
+	
+}
+
+/*small devices*/
+@media screen and (min-width:610px){
+
+
+}
+
+/*extra small devices*/
+@media screen and (min-width:480px){
+
+
+}

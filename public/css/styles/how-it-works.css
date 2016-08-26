@@ -1,0 +1,478 @@
+/*Cover image*/
+.how-it-works-bg-img{
+	background-image:url('/img/How it works/Photo front.png');
+	height: 600px;
+	background-repeat: no-repeat; 
+ 	background-size: cover;
+	margin-top: -90px;
+	background-position: center;
+}
+
+.how-it-works-bg-img h1{
+	font-size: 44px;
+	color: #FFFFFF;
+	letter-spacing: 1.45px;
+	line-height: 50px;
+	margin-top: 130px;
+}
+
+/*Apply for jobs by recording a video introduction*/
+.apply-jobs-row{
+	padding-top: 45px;
+}
+
+.apply-jobs-row h1{
+	font-size: 45.25px;
+	color: #303234;
+	letter-spacing: 0px;
+	line-height: 51.42px;
+}
+
+.apply-jobs-row img{
+	height: 120%;
+	width: 120%;
+}
+
+.apply-jobs-row p{
+	font-size: 18.51px;
+	color: #747E80;
+	letter-spacing: 0px;
+	line-height: 28.79px;
+	padding-bottom: 35px;
+}
+
+.apply-jobs-row button{
+	font-size: 15px;
+	color: #FFFFFF;
+	padding: 10px 60px;
+	background-color: #02dc90;
+	border: 2px solid #02dc90;
+	border-radius: 6px;
+}
+
+.apply-jobs-row button:hover,
+.apply-jobs-row button:focus{
+	background-color: transparent;
+	border: 2px solid #02dc90;
+	color: #02dc90;
+	transition: all .3s ease;
+}
+
+.hr-row-1{
+	padding-top: 50px;
+}
+
+.hr-row-1 hr{
+	border-top: 2px solid #cbcbcb;
+	width: 97.5%;
+}
+
+.get-row-hr{
+	padding-top: 60px;
+}
+
+
+/*SAFE and SECURE...*/
+
+.blurd-row-3 h3{
+	font-size: 14.39px;
+	color: #2F2F2F;
+	letter-spacing: 1.79px;
+	line-height: 22.62px;
+}
+
+.blurd-row-3 p{
+	font-size: 16.45px;
+	color: #747E80;
+	letter-spacing: 0px;
+	line-height: 24.68px;
+}
+
+/*Make sure you stand out*/
+
+.stand-out-row h1{
+	text-align: center;
+	font-size: 45.25px;
+	color: #303234;
+	letter-spacing: 0px;
+	line-height: 51.42px;
+	padding-top: 50px;
+}
+
+.stand-out-row hr{
+	border-top: 5px solid #02dc90;
+    width: 6%;
+    padding-bottom: 10px;
+}
+
+/*3 iPhone*/
+.mobile-selected-row{
+	padding-top: 85px;
+	text-align: center;
+	padding-bottom: 85px;
+}
+
+.mobile-selected-row img{
+	height: 80%;
+	width: 80%;
+}
+
+.mobile-selected-row p{
+	font-size: 20px;
+	color: #03A66D;
+	letter-spacing: −0.57px;
+}
+
+
+.mobile-selected-row-1{
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 85px;
+}
+
+.mobile-selected-row-1 img{
+	height: 80%;
+	width: 80%;
+}
+
+.mobile-selected-row-1 p{
+	font-size: 20px;
+	color: #03A66D;
+	letter-spacing: −0.57px;
+}
+
+
+/*Find jobs now and download our app*/
+.bg-img-browse-jobs{
+	background-image:url('/img/How it works/Photo girl sitting.png');
+	height: 500px;
+	background-repeat: no-repeat; 
+ 	background-size: cover;
+	background-position: center;
+	text-align: center;
+	top: -40px;
+}
+
+.bg-img-browse-jobs .lokaldo-logo{
+	height: 138px;
+	width: 138px;
+}
+
+.bg-img-browse-jobs .download-icon{
+	margin-top: 50px !important;
+    width: 198px;
+	height: 58px;
+}
+
+.bg-img-browse-jobs h3{
+	font-size: 30px;
+	color: #FFFFFF;
+	letter-spacing: −0.17px;
+	line-height: 51.42px;
+	margin-top: 20px;
+}
+
+.bg-img-browse-jobs .col-md-8{
+	padding-top: 85px;
+	padding-bottom: 85px;
+}
+
+/*Apply for jobs by recording a video introduction.*/
+
+.know-future-employee-row{
+	padding-top: 80px;
+}
+
+.know-future-employee-row h1{
+	font-size: 45.25px;
+	color: #303234;
+	letter-spacing: 0px;
+	line-height: 51.42px;
+}	
+
+.know-future-employee-row p{
+	font-size: 18.51px;
+	color: #747E80;
+	letter-spacing: 0px;
+	line-height: 28.79px;
+	padding-bottom: 30px;
+}
+
+.know-future-employee-row button{
+	font-size: 15px;
+    color: #FFFFFF;
+    padding: 10px 65px;
+    background-color: #02dc90;
+    border: 2px solid #02dc90;
+    border-radius: 6px;
+}
+
+.know-future-employee-row button:hover,
+.know-future-employee-row button:focus{
+	background-color: transparent;
+	border: 2px solid #02dc90;
+	color: #02dc90;
+	transition: all .3s ease;
+}
+
+/*POST A JOB FOR FREE...*/
+
+.blurb-row-32 h3{
+	font-size: 14.39px;
+	color: #2F2F2F;
+	letter-spacing: 1.79px;
+	line-height: 22.62px;
+}
+
+.blurb-row-32 p{
+	font-size: 16.45px;
+	color: #747E80;
+	letter-spacing: 0px;
+	line-height: 24.68px;
+}
+
+/*button group: Web or Mobile*/
+
+.btn-web-mobile{
+	padding-top: 80px;
+	text-align: center;
+}
+
+.btn-web-mobile .btn-group .btn-success{
+	width: 200px;
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 1.2px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 2px solid #03A66D;
+	background-color: transparent;
+	color: #03A66D;
+}
+
+.btn-web-mobile .btn-group .btn-success.active{
+	background-color: #03A66D;
+	border: 2px solid #03A66D;
+	color: #FFFFFF;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-web-mobile .btn-group .btn-success:hover,
+.btn-web-mobile .btn-group .btn-success:active,
+.btn-web-mobile .btn-group .btn-success:focus{
+	background-color: #03A66D;
+	border: 2px solid #03A66D;
+	color: #FFFFFF;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle){
+	border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child){
+	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+/*Minimum time maximum effort*/
+.bg-img-browse-jobs-2{
+	background-image:url('/img/How it works/Photo footer.png');
+	height: 500px;
+	background-repeat: no-repeat; 
+ 	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #FFFFFF;
+
+	padding-top: 75px;
+}
+
+.bg-img-browse-jobs-2 h1{
+	font-size: 44px;
+	color: #FFFFFF;
+	letter-spacing: −0.25px;
+	line-height: 50px;
+}
+
+.bg-img-browse-jobs-2 p{
+	opacity: 0.95;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 0px;
+	line-height: 28px;
+	padding: 20px;
+}
+
+.bg-img-browse-jobs-2 .col-md-8{
+	padding-top: 35px;
+}
+
+.bg-img-browse-jobs-2 button{
+	font-size: 17.5px;
+	color: #03A66D;
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+	padding: 15px 70px;
+	font-weight: bold;
+}
+
+.bg-img-browse-jobs-2 button:hover,
+.bg-img-browse-jobs-2 button:focus{
+	background-color: #03A66D;
+	color: #FFFFFF;
+	border-color: #03A66D;
+	transition: all .3s ease;
+}
+
+/*got a questions?*/
+
+.got-questions-row{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.got-questions-row h1{
+	font-size: 52px;
+	color: #3C3D41;
+	letter-spacing: −2px;
+	line-height: 55px;
+}
+
+.got-questions-row p{
+	font-size: 32.91px;
+	color: #494B4E;
+	letter-spacing: 0px;
+	line-height: 39.08px;
+}
+
+.lokaldo-email{
+	color: #03A66D;
+}
+
+.hr-header{
+	border-top: 5px solid #02dc90;
+    width: 10%;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/*Web selected*/
+.web-selected-row{
+	padding-top: 75px;
+	padding-bottom: 100px;
+}
+
+.web-selected-row h1{
+	font-size: 44px;
+	color: #303234;
+	letter-spacing: −0.25px;
+	line-height: 50px;
+}
+
+.web-selected-row hr{
+	width: 15%;
+}
+
+.web-selected-row p{
+	font-size: 18px;
+	color: #747E80;
+	letter-spacing: 0px;
+	line-height: 28px;
+}
+
+.web-selected-row ol{
+	padding-top: 10px;
+}
+
+.web-selected-row ol li{
+	color: #02dc90;
+	font-size: 18px;
+	letter-spacing: 0px;
+	line-height: 34px;
+}
+
+.web-selected-row ol li p{
+	font-size: 18px;
+	color: #747E80;
+	letter-spacing: 0px;
+	line-height: 34px;
+	text-indent: 3px;
+	margin-bottom: 0;
+}
+
+#L-mail{
+	text-decoration: none;
+}
+
+#L-mail:hover,
+#L-mail:focus{
+	color: #029662;
+	transition: color .5s ease;
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -ms-transition: color .5s ease;
+    -o-transition: color .5s ease;
+}
+
+/*medium devices*/
+@media screen and (min-width:768px){
+	.how-it-works-bg-img h1{
+		margin-left: 80px;
+	}
+
+	.know-future-employee-row .col-md-7{
+		position: relative;
+		left: 40px;
+	}
+
+	.mobile-selected-container{
+		background-color: #f7f8fa;
+		height: 330px;
+		border-radius: 14px;
+	}
+
+	.mobile-selected-container .col-md-4{
+		margin-top: -80px;
+	}
+
+	.mobile-selected-row{
+		padding-top: 200px;
+	}
+	/****************/
+	.mobile-selected-container-1{
+		background-color: #f7f8fa;
+		height: 330px;
+		border-radius: 14px;
+	}
+
+	.mobile-selected-container-1 .col-md-4{
+		margin-top: -80px;
+	}
+
+	.mobile-selected-row-1{
+		padding-top: 100px;
+	}
+}
+
+/*large Devices*/
+@media screen and (min-width:991px){
+
+	
+}
+
+/*small devices*/
+@media screen and (min-width:610px){
+
+
+}
+
+/*extra small devices*/
+@media screen and (min-width:480px){
+
+
+}

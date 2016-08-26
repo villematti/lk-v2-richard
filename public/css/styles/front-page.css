@@ -1,0 +1,716 @@
+body{
+	overflow-x: hidden;
+}
+.bg-image-front-page{
+	background-image:url('/img/front-page-image/iStock_89416417_LARGE.png');
+	height: 642px;
+	width: 100%;
+	background-repeat: no-repeat; 
+ 	background-size: cover;
+	margin-top: -90px;
+	background-position: center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg-image-front-page .cover-image-content{
+	color: #ffffff;
+	margin-top: 190px;
+	text-align: center;
+}
+
+.bg-image-front-page .cover-image-content>h1{
+	font-size: 44px;
+	color: #FFFFFF;
+	letter-spacing: 1.45px;
+	line-height: 50px;
+}
+
+.bg-image-front-page .cover-image-content>h2{
+	font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0.17px;
+    line-height: 40.42px;
+}
+
+.restaurant-780{
+	color: #02dc90;
+	font-family: 'AvenirNext-Bold';
+}
+
+.form-search-front-page{
+	padding-top: 70px;
+}
+
+.form-search-front-page .form-group{
+	padding-right: 10px;
+}
+
+.form-search-front-page button{
+	padding: 13px 27px;
+	background-color: #02dc90;
+	border-color: #02dc90;
+	font-size: 14.39px;
+}
+
+.form-search-front-page button:hover,
+.form-search-front-page button:active,
+.form-search-front-page button:focus,
+.form-search-front-page button:visited,
+.form-search-front-page button:link{
+	background-color: #02aa6f;
+    border-color: #02aa6f;
+}
+
+
+/*Glyphicons inside the input*/
+.center-block {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-group .icon-addon .form-control {
+    border-radius: 0;
+}
+
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+
+.icon-addon.addon-md .form-control {
+    line-height: 1.33;
+    height: 46px;    
+    padding: 10px 16px 10px 40px;
+    color: #515151
+    font-size: 14.39px;
+}
+
+.icon-addon.addon-md .fa,
+.icon-addon.addon-md .glyphicon {
+    font-size: 18px;
+    margin-left: 0;
+    left: 11px;
+    top: 3px;
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #2580db;
+}
+
+/*Most popular*/
+
+.most-popular-container{
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 55px;
+}
+
+.most-popular-container .most-popular-images{
+	margin-top: -30px; 
+}
+
+.most-popular-container .most-popular-images-2 .col-md-4{
+	margin-top: -35px;
+}
+
+.most-popular-container h2{
+	text-align: left;
+	position: relative;
+	left: 15px;
+	font-weight: bold;
+	color: #515151;
+}
+
+.most-popular-images .col-md-4 .caption-image,
+.most-popular-images-2 .col-md-4 .caption-image
+{
+	font-size: 20px;
+	top: 110px;
+	color: #ffffff;
+	position: relative;
+	z-index: 1;
+
+}
+
+.most-popular-container span button{
+	padding: 8px 35px;
+	width: 170px;
+	margin-top: 18px;
+	background-color: #02DC90;	
+	border-color: #02dc90;
+	font-size: 15px;
+}
+
+.most-popular-container span button:hover{
+	background-color: transparent;
+	border-color: #02DC90;
+	color: #02DC90;
+}
+
+.most-popular-container span{
+	padding: 15px 15px;
+}
+
+/*Latest jobs*/
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+
+.latest-job-row{
+	background-color: #f7f8fa;
+	padding-top: 70px;
+	padding-bottom: 90px;
+}
+
+.latest-job-header{
+	position: relative;
+	left: 15px;
+	padding-bottom: 25px;
+	font-size: 30px;
+	font-weight:bold;
+	color: #515151;
+
+}
+
+.list-of-latest-jobs{
+	padding-top: 30px !important;
+}
+
+.form-inline-latest-job .media .media-body .media-heading{
+	font-size: 19px;
+	color: #515151;
+	font-weight: bold;
+}
+
+
+.form-inline-latest-job .media .media-body .title-media-heading{
+	font-size: 15px;
+	color: #515151;
+
+}
+
+.form-inline-latest-job .media .media-body{
+	position: relative;
+	top: 5px;
+	left: 8px;
+	padding-left: 5px;
+}
+
+.form-inline-latest-job .media-middle img{
+	height: 45px;
+	width: 45px;
+}
+
+.list-of-latest-jobs-row{	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 13px;
+}
+
+.location-title #img-1-location{
+	height: 15px;
+	width: 12px;
+}
+
+.location-title{
+	font-size: 15px;
+	color: #515151;
+}
+
+.location-title #img-2-location{
+	height: 15px;
+	width: 15px;
+}
+
+.second-category-button{
+	position: relative;
+	top: 6px;
+}
+
+.location-title img{
+	position: relative;
+	top: -3px;
+}
+
+.date-apply-btn{
+	font-size: 15px;
+	color: #515151;
+
+	padding: 0;
+}
+
+.col-md-3 #icon-clock-date{
+	height: 15px;
+	width: 15px;
+	position: relative;
+	top: -3px;
+}
+
+.latest-job-apply-for-job-btn{
+	font-size: 12px;
+	padding: 0 37px;
+	position: relative;
+	top: 3px;
+	border-radius: 3px;
+	background-color: #02aa6f;
+	border-color: #02aa6f;
+}
+
+.latest-job-apply-for-job-btn:hover{
+	background-color: #02dc90;
+	border-color: #02dc90;
+}
+
+/*Download App*/
+.well-download-app .well{
+	padding-top: 19px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+
+	text-align: center;
+}
+
+.hr-header {
+    margin-top: 0px;
+    border-top: 5px solid #02dc90;
+    width: 30%;
+    padding-bottom: 10px;
+}
+
+.well-download-app .well>h2{
+	font-family: 'NexaBold';
+	font-size: 30px;
+	color: #515151;
+}
+
+.well-download-app .well .simply-download{
+	padding-bottom: 22px;
+}
+
+.well-download-app .well img{
+	height: 138px;
+	width: 138px;
+}
+
+.well-download-app .well p{
+	font-size: 17px;
+	color: #515151;
+}
+
+.download-btn-app{
+	width: 198px !important;
+	height: 58px !important;
+	margin-top: 20px;
+}
+
+.browse-btn-latest-jobs {
+    padding: 8px 35px;
+    width: 170px;
+    margin-top: 25px;
+    background-color: #02dc90;
+    border-color: #02dc90;
+}
+
+.browse-btn-latest-jobs:hover,
+.browse-btn-latest-jobs:active,
+.browse-btn-latest-jobs:focus,
+.browse-btn-latest-jobs:visited,
+.browse-btn-latest-jobs:link{
+   background-color: transparent;
+   border-color: #02dc90;
+   color: #02dc90;
+}
+
+/*Post a job listing section*/
+
+.post-job-listing-row{
+	background-color: #222431;
+	background-size: cover;
+	background-repeat: no-repeat; 
+ 	background-size: cover;
+	color: #ffffff;
+}
+
+.post-job-listing-row .col-6-post-job-listing h1{
+	font-family: 'NexaLight';
+	font-size: 42px;
+	color: #FFFFFF;
+}
+
+.post-job-listing-row .col-6-post-job-listing h2{
+	font-family: 'NexaLight';
+	font-size: 28px;
+	color: #FFFFFF;
+
+}
+
+.post-job-listing-container{
+	padding: 30px;
+	position: relative;
+	left: 70px;
+}
+
+.browse-btn-post-job-listing{
+	padding: 8px 35px;
+    margin-top: 32px;
+    background-color: #02dc90;
+    border-color: #02dc90;
+    font-size: 17px;
+    padding: 18px 90px;
+}
+
+.browse-btn-post-job-listing:hover,
+.browse-btn-post-job-listing:active,
+.browse-btn-post-job-listing:focus,
+.browse-btn-post-job-listing:visited,
+.browse-btn-post-job-listing:link{
+    background-color: #02aa6f;
+    border-color: #02aa6f;
+}
+
+.hr-post-job-listing{
+	margin-top: -10px;
+	width: 38%;
+}
+
+.col-6-post-job-listing h2{
+	position: relative;
+	top: -12px;
+}
+
+/*Forget CV's and Resumes*/
+.forget-cvs-row{
+	padding-top: 65px;
+}
+
+.forget-cvs-row .img-col-6{
+	padding: 0;
+	position: relative;
+	left: -10px;
+}
+
+.forget-cvs-row .container .col-md-6 img{
+	width:500px; 
+	height:391px; 
+}
+
+.forget-cvs-row .container .forgetCVs-col-6>h1{
+	font-weight: bold;
+	font-size: 41.14px;
+	color: #2F2F2F;
+	letter-spacing: 0.23px;
+	line-height: 51.42px;
+}
+
+.forget-cvs-row .container .forgetCVs-col-6>p{
+	font-size: 18.51px;
+	color: #747E80;
+	letter-spacing: 0px;
+	line-height: 28.79px;
+
+	padding-bottom: 15px;
+	padding-right: 30px;
+}
+
+.forget-cvs-row .container .forgetCVs-col-6 hr{
+    border-top: 5px solid #02dc90;
+    width: 12%;
+    padding-bottom: 10px;
+}
+
+.forget-cvs-row .container .forgetCVs-col-6 button{
+    font-size: 13px;
+	color: #FFFFFF;
+	padding: 7px 25px;
+	background-color: #02dc90;
+    border-color: #02dc90;
+}
+
+.forget-cvs-row .container .forgetCVs-col-6 button:hover,
+.forget-cvs-row .container .forgetCVs-col-6 button:active,
+.forget-cvs-row .container .forgetCVs-col-6 button:focus,
+.forget-cvs-row .container .forgetCVs-col-6 button:visited,
+.forget-cvs-row .container .forgetCVs-col-6 button:link{
+    background-color: transparent;
+    border-color: #02dc90;
+    color: #02dc90;
+}
+
+/*Complete toolset for recruiters*/
+.row.complete-toolset-row{
+	padding-top: 70px;
+}
+
+.complete-toolset-row .complete-toolset-col-6 h1{
+	font-weight: bold;
+	font-size: 41.14px;
+	color: #2F2F2F;
+	letter-spacing: 0.23px;
+	line-height: 51.42px;
+}
+
+.complete-toolset-row .complete-toolset-col-6 p{
+	font-size: 18.51px;
+	color: #747E80;
+	letter-spacing: 0px;
+	line-height: 28.79px;
+
+	padding-bottom: 15px;
+	padding-right: 70px;
+}
+
+.complete-toolset-row .complete-toolset-col-6 hr{
+	border-top: 5px solid #02dc90;
+    width: 12%;
+    padding-bottom: 10px;
+}
+
+.complete-toolset-row .complete-toolset-img img{
+	width:500px; 
+	height:391px; 
+}
+
+.complete-toolset-row .complete-toolset-img{
+	padding: 0;
+    position: relative;
+    left: -10px; 
+}
+
+.complete-toolset-row .complete-toolset-col-6 button{
+	font-size: 13px;
+	color: #FFFFFF;
+	padding: 7px 25px;
+	background-color: #02dc90;
+    border-color: #02dc90;
+}
+
+.complete-toolset-row .complete-toolset-col-6 button:hover,
+.complete-toolset-row .complete-toolset-col-6 button:active,
+.complete-toolset-row .complete-toolset-col-6 button:focus,
+.complete-toolset-row .complete-toolset-col-6 button:visited,
+.complete-toolset-row .complete-toolset-col-6 button:link{
+    background-color: transparent;
+    border-color: #02dc90;
+    color: #02dc90;
+}
+
+/*Photo footer*/
+
+.photo-footer-bg{
+	background-image:url('/img/front-page-image/Photo Footer.png');
+	height: 95%;
+	background-repeat: no-repeat; 
+ 	background-size: cover;
+ 	background-position: center;
+ 	text-align: center;
+ 	margin-top: 50px;
+}
+
+.photo-footer-bg .container .lokaldo-logo{
+	height: 138px;
+    width: 138px;
+    margin-top: 174px;
+}
+
+.photo-footer-bg .container p{
+	color: #ffffff;
+	font-size: 17px;
+	padding-top: 20px;
+}
+
+.photo-footer-bg .container .lataa-app-store{
+	height: 40px;
+	width: 135px;
+	margin-top: 15px;
+}
+
+/*FAQS section*/
+
+.faqs-row{
+	padding-top: 80px;
+}
+
+.faqs-row .container .col-md-6 h3{
+	font-size: 16.45px;
+	color: #303234;
+	letter-spacing: 2.05px;
+	padding-top: 15px;
+}
+
+.faqs-row .container .col-md-6 p{
+	opacity: 0.8;
+	font-size: 18.51px;
+	color: #747E80;
+	letter-spacing: 0px;
+	line-height: 28.79px;
+	padding-top: 10px;
+}
+
+.faqs-row-2 .container .col-md-6 h3{
+	font-size: 16.45px;
+	color: #303234;
+	letter-spacing: 2.05px;
+	padding-top: 15px;
+}
+
+.faqs-row-2 .container .col-md-6 p{
+	opacity: 0.8;
+	font-size: 18.51px;
+	color: #747E80;
+	letter-spacing: 0px;
+	line-height: 28.79px;
+	padding-top: 10px;
+}
+
+/*More questions? tweet us*/
+
+.more-questions-tweet-row{
+	padding:50px 0 70px 0;
+}
+
+.more-questions-tweet-row .container .col-md-12 h2{
+	font-size: 32.91px;
+	color: #494B4E;
+	letter-spacing: 0px;
+	line-height: 39.08px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.lokaldoapp-tweet{
+	color: #02dc90;
+}
+
+.lokaldoapp-tweet:hover{
+	color: #02aa6f;
+}
+
+.more-questions-tweet-row a{
+	text-decoration: none;
+}
+
+/*Join more for free*/
+
+.join-more-row{
+	background-color: #393c4b;
+	text-align: center;
+	padding: 55px 0;
+}
+
+.join-more-row .form-inline p{
+	color: #ffffff;
+	font-size: 20px;
+	position: relative;
+	top: 5px;
+}
+
+
+.join-more-row .form-group input{
+	width: 100%;
+	line-height: 1.33;
+    height: 50px;
+    padding: 10px 120px 10px 18px;
+   	font-size: 16px;
+	color: #fff;
+	background-color: #222431;
+	border-color: #222431;
+}
+
+.join-more-row .form-inline .input-form-group{
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+.join-more-row button{
+	padding: 11px 35px;
+    background-color: #02dc90;
+    border-color: #02dc90;
+    font-size: 18px;
+	color: #FFFFFF;
+}
+
+.join-more-row button:hover,
+.join-more-row button:active,
+.join-more-row button:focus,
+.join-more-row button:link,
+.join-more-row button:visited{
+    background-color: #02aa6f;
+    border-color: #02aa6f;
+}
+
+.join-more-row form .form-control::-moz-placeholder {
+	color: #9297A3;
+  	opacity: 0.34;
+}
+
+.join-more-row form .form-control:-ms-input-placeholder {
+  	color: #9297A3;
+  	opacity: 0.34;
+}
+
+.join-more-row form .form-control::-webkit-input-placeholder {
+ 	color: #9297A3;
+ 	opacity: 0.34;
+}
+
+#sel-categ{
+	padding: 8px 85px 10px 10px;
+    height: 46px;
+    margin-top: 1px;
+    line-height: 1.33;
+    font-size: 14.39px;
+}
+
+.form-group select{
+	color: #B0B0B0;
+}
+
+.form-group select>option{
+	color: #B0B0B0;
+}
+
+.icon-addon .form-control:focus + .glyphicon, .icon-addon:hover .glyphicon, .icon-addon .form-control:focus + .fa, .icon-addon:hover .fa{
+	color: #B0B0B0;
+}
+
+.icon-addon.addon-md .fa, .icon-addon.addon-md .glyphicon{
+	color: #B0B0B0;
+}

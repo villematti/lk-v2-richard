@@ -1,0 +1,170 @@
+.sent-jb-appl{
+	font-size: 25px;
+    color: #515151;
+    padding-right: 10px;
+}
+
+.snt-jb-cont .well{
+	margin-top: 35px;
+}
+
+.sent-jb-appl-num{
+	border-left: 1px solid #808080;
+    padding-left: 10px;
+    color: #808080;
+    font-size: 15px;
+}
+
+.snt-jb-cont .well{
+	padding: 0;
+	background-color: #ffffff;
+}
+
+.snt-jb-cont .table thead{
+	background-color: #f4f8fb;
+	color: #7f90a4;
+	font-size: 15px;
+}
+
+.snt-jb-cont caption{
+	padding: 30px 20px;
+}
+
+.trth th{
+	font-weight: 100;
+	font-size: 15px;
+}
+
+.snt-jb-cont .table>tbody>tr>td,
+.snt-jb-cont .table>thead>tr>th{
+	padding: 15px 20px;
+}
+
+.snt-jb-cont .table>tbody>tr>td{
+	vertical-align: middle;
+}
+
+tbody .btn-view{
+	padding-right: 0 !important;
+	padding-left: 70px !important;
+}
+
+tbody .btn-view button,
+tbody .jb-applc-2 button{
+	background-color: #03a66d;
+	border-color: #03a66d;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+tbody .btn-view button:hover,
+tbody .jb-applc-2 button:hover{
+	background-color: #029662;
+	border-color: #029662;
+}
+
+span.categ-job,
+span.exp-date{
+	font-size: 15px;
+	font-weight: bold;
+	color: #354052;
+}
+
+.snt-jb-cont .table{
+	margin-bottom: 0;
+}
+
+span.loc-snt{
+	color: #7f90a4;
+    font-size: 13px;
+}
+
+tr.trth th:last-child{
+	border-right: 1px solid #e3e3e3;
+}
+
+tr.trth th{
+	border-top: 1px solid #e3e3e3 !important;
+	border-bottom: 1px solid #e3e3e3 !important;
+}
+
+#Ltrash{
+	padding: 10px 15px;
+	background-color: #ff594d;
+	border-color: #ff594d;
+}
+
+#Ltrash:hover,
+#Ltrash:focus{
+	background-color: #d01112;
+	border-color: #d01112;
+}
+
+#Ltrash .fa.fa-trash-o{
+	font-size: 19px;
+    position: relative;
+    top: 3px;
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.modal-header{
+	background-color: #ff594d;
+}
+
+.modal-content{
+	border-radius: 0;
+}
+
+.modal-header .modal-title{
+	color: #ffffff;
+}
+
+.modal-footer{
+	padding: 25px;
+}
+
+button.close{
+	color: #ffffff;
+}
+
+#yes_rmv_jb{
+	background-color: #03a66d;
+	border-color: #03a66d;
+	color: #ffffff;
+}
+
+#yes_rmv_jb:hover,
+#yes_rmv_jb:focus{
+	background-color: #029662;
+    border-color: #029662;
+}
+
+#no_return{
+	color: #7E8EA3;
+}
+
+@media (min-width: 768px){
+	.modal-dialog {
+	    width: 400px;
+	    margin: 30px auto;
+	}
+}
+

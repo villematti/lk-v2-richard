@@ -1,0 +1,278 @@
+.gry-rest-wrk{
+	background-color: #fafafa;
+	width: 100%;
+	margin-top: -20px;
+	text-align: center;
+	color: #515151;
+	padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+.gry-rest-wrk h1{
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+ul.lst-ul li{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.gry-rest-wrk ul li{
+	display: inline-block;
+	padding-top: 10px
+	font-size: 15px;
+	text-align: center;
+}
+
+.gry-rest-wrk img{
+	height: 15px;
+    width: 15px;
+}
+
+.gry-rest-wrk #loc{
+	height: 16px;
+    width: 14px;
+}
+
+#rcrd-v{
+	background-color: gray;
+	height: 477px;
+	width: 100%;
+
+}
+
+.cont-vid{
+	padding-top: 50px;
+}
+
+.cont-vid .well span{
+	font-size: 17px;
+    letter-spacing: 1px;
+    padding-left: 9px;
+    color: #515151;
+}
+
+.jb-descr-con h3{
+	font-size: 19px;
+    color: #818181;
+}
+
+.jb-descr-con p{
+	font-size: 15.8px;
+    color: #808080;
+    padding-left: 15px;
+    line-height: 24px;
+}
+
+/************************************/
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+
+.latest-job-row{
+	padding-top: 15px;
+	padding-bottom: 90px;
+}
+
+.showing-p{
+	padding-bottom: 10px;
+}
+
+.latest-job-header{
+	position: relative;
+	left: 15px;
+	padding-bottom: 25px;
+	font-size: 30px;
+	font-weight:bold;
+	color: #515151;
+
+}
+
+.list-of-latest-jobs{
+	padding-top: 30px !important;
+}
+
+.form-inline-latest-job .media .media-body .media-heading{
+	font-size: 19px;
+	color: #515151;
+	font-weight: bold;
+}
+
+
+.form-inline-latest-job .media .media-body .title-media-heading{
+	font-size: 15px;
+	color: #515151;
+
+}
+
+.form-inline-latest-job .media .media-body{
+	position: relative;
+	top: 5px;
+	left: 8px;
+	padding-left: 5px;
+}
+
+.form-inline-latest-job .media-middle img{
+	height: 45px;
+	width: 45px;
+}
+
+.list-of-latest-jobs-row{	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 13px;
+}
+
+.location-title #img-1-location{
+	height: 15px;
+	width: 12px;
+}
+
+.location-title{
+	font-size: 15px;
+	color: #515151;
+}
+
+.location-title #img-2-location{
+	height: 15px;
+	width: 15px;
+}
+
+.second-category-button{
+	position: relative;
+	top: 6px;
+}
+
+.location-title img{
+	position: relative;
+	top: -3px;
+}
+
+.date-apply-btn{
+	font-size: 15px;
+	color: #515151;
+
+	padding: 0;
+}
+
+.col-md-3 #icon-clock-date{
+	height: 15px;
+	width: 15px;
+	position: relative;
+	top: -3px;
+}
+
+.latest-job-apply-for-job-btn{
+	font-size: 12px;
+	padding: 0 37px;
+	position: relative;
+	top: 3px;
+	border-radius: 3px;
+	background-color: #02aa6f;
+	border-color: #02aa6f;
+}
+
+.latest-job-apply-for-job-btn:hover{
+	background-color: #05ae73;
+	border-color: #05ae73;
+}
+
+.sim-jb-con h3{
+	font-size: 19px;
+    color: #818181;
+}
+
+.sim-jb-con{
+	padding-top: 80px;
+}
+
+
+.bg-img-nae{
+	background-image: url('/img/photos/Photo footer baking.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 85px;
+}
+
+
+.bg-img-nae .row{
+	margin-top: 98px;
+	text-align: center;
+}
+
+.bg-img-nae .lokaldo-logo{
+	height: 138px;
+    width: 138px;
+}
+
+.bg-img-nae .download-icon{
+    width: 198px;
+    height: 58px;
+}
+
+.bg-img-nae h3{
+	text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 51.42px;
+    margin-top: 20px;
+}
+
+
+#comp-btn{
+	background-color: #3889f4;
+	border-color: #3889f4;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+}
+
+#part-tm-btn{
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	background-color: #7f63f4;
+	border-color: #7f63f4;
+}
+
+#part-tm-btn:hover{
+	background-color: #563ce6;
+	border-color: #563ce6;
+}
+
+#comp-btn:hover{
+	background-color: #0b55e8;
+	border-color: #0b55e8;
+}
+
+#appl-btn{
+	background-color: #01af72;
+	border-color: #01af72;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+}
+
+#appl-btn:hover{
+	background-color: #038a5b;
+	border-color: #038a5b;
+	color: #FFFFFF;
+}
+
+.cont-vid .col-md-3 hr{
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+}
+
+@media screen and (min-width: 767px) {
+  	ul.lst-ul li{
+		padding-left: 8px;
+		padding-right: 45px;
+	}
+
+
+
+
+}

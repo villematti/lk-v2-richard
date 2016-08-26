@@ -1,0 +1,289 @@
+/*Cover image*/
+.bg-img{
+	background-image:url('/img/photos/Header photo jobs.png');
+	height: 300px;
+	background-repeat: no-repeat; 
+ 	background-size: cover;
+	margin-top: -90px;
+	background-position: center;
+}
+
+.bg-img h1{
+	text-align: center;
+	color: #ffffff;
+	margin-top: 70px;
+	font-size: 44px;
+    letter-spacing: 1.45px;
+    line-height: 50px;
+}
+
+.bg2-img{
+	background-image:url('/img/photos/footer photo.png');
+	height: 500px;
+	background-repeat: no-repeat; 
+ 	background-size: cover;
+	background-position: left;
+	margin-top: 85px;
+}
+
+.bg2-img .row{
+	text-align: center;
+	margin-top: 96px;
+}
+
+.bg2-img .row h3{
+	text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 51.42px;
+    margin-top: 20px;
+}
+
+.bg2-img .lokaldo-logo{
+	height: 138px;
+	width: 138px;
+}
+
+.bg2-img .download-icon{
+	margin-top: 30px !important;
+    width: 198px;
+    height: 58px;
+}
+
+
+.Lreturn-oma{
+	background-color: #fafafa;
+	width: 100%;
+	padding-right: 15px !important;
+	padding-left: 15px !important;
+}
+
+.Lreturn-oma p {
+	padding: 20px 15px;
+	margin-bottom: 0;
+	font-size: 17px;
+}
+
+.Lreturn-oma a{
+	text-decoration: none;
+	color: #03a66d;
+}
+
+#rcrd-v {
+    background-color: gray;
+    height: 485px;
+    width: 100%;
+}
+
+.bidyo-cont{
+	margin-top: 80px;
+}
+
+.bidyo-cont .col-md-3 .well{
+	background-color: #ffffff !important;
+	padding: 15px;
+}
+
+.bidyo-cont #Lname-bidyo{
+	font-size: 17px;
+    letter-spacing: 1px;
+    padding-left: 9px;
+    color: #515151;
+}
+
+.info-well p:last-child{
+	margin-bottom: 0;
+}
+
+.info-well p{
+	color: #515151;
+}
+
+.info-well{
+	padding: 20px 15px !important;
+}
+
+.video-contr-9{
+	padding-left: 0;
+}
+
+.Ltaytol-1{
+	color: #808080;
+	font-size: 19px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+.title-descrp{
+	color: #808080;
+	padding-top: 10px;
+}
+
+.line-separator{
+	margin-top: 30px;
+}
+
+.Ltaytol-2{
+	color: #808080;
+	font-size: 19px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.comp-name-wrkexp{
+	font-size: 16px;
+	color: #03a66d;
+	font-weight: bold;
+}
+
+.comp-name-wrkexp-plce{
+	margin-left: 10px;
+	color: #808080;
+	font-size: 16px;
+}
+
+.job-posisyon{
+	padding-top: 10px;
+	font-weight: bold;
+	color: #808080;
+	font-size: 15px;
+}
+
+.lspan-date{
+	font-size: 16px;
+	color: #808080;
+}
+
+.Lwrk-diskripsyon{
+	color: #808080;
+}
+
+.Lwork-exp{
+	padding-top: 15px;
+}
+
+.line-separator{
+	margin-top: 35px;
+}
+
+.LaboutMe{
+	padding-left: 15px;
+	color: #808080;
+}
+
+.Llanguages{
+	font-size: 16px;
+    color: #03a66d;
+    font-weight: bold;
+}
+
+.langauges-rw{
+	padding-left: 15px;
+}
+
+.habis-interis{
+	color: #808080;
+	margin-left: 15px;
+}
+
+.bidyo-cont .row:last-child>hr{
+	display: none;
+}
+
+.btn-row{
+	padding-top: 30px;
+}
+
+#footer-return{
+	background-color: transparent;
+	color: #03a66d;
+	border: 3px solid #03a66d;
+	padding: 15px 100px;
+	border-radius: 6px;
+	font-weight: bold;
+}
+
+#footer-sendja{
+	background-color: #03a66d;
+	color: #ffffff;
+	border: 3px solid #03a66d;
+	padding: 15px 150px;
+	border-radius: 6px;
+	font-weight: bold;
+}
+
+#footer-sendja:hover,
+#footer-sendja:focus,
+#footer-sendja:visited{
+	background-color: transparent;
+	color: #03a66d;
+	border: 3px solid #03a66d;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#footer-return:hover,
+#footer-return:focus,
+#footer-return:visited{
+	background-color: #03a66d;
+	color: #ffffff;
+	border: 3px solid #03a66d;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.btn-row button:last-child{
+	margin-left: 100px;
+}
+
+.btn-row button{
+	margin-top: 50px;
+	margin-bottom: 130px;
+}
+
+.Lreturn-oma .fa.fa-angle-left{
+	font-size: 22px;
+    padding-right: 5px;
+}
+
+.info-well p>i.fa{
+	color: #03a66d;
+	padding-right: 13px;
+	font-size: 16px;
+}
+
+
+@media (min-width: 768px){
+	.title-descrp{
+		padding-left: 15px;
+	}
+
+	.comp-name-wrkexp{
+		padding-left: 15px;
+	}
+
+	.job-posisyon{
+		padding-left: 30px;
+	}
+
+	.lspan-date{
+		padding-left: 40px;
+	}
+
+	.Lwrk-diskripsyon{
+		padding-left: 50px;
+	}
+}
+
+@media screen and (max-width:480px){
+	.row{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

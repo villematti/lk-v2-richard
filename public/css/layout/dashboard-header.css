@@ -1,0 +1,192 @@
+html, body{
+    height: 100%;
+    font-family: 'AvenirNext-Regular';
+}
+
+.navbar.navbar-default{
+	border-color: #03a66d !important;
+	background-color: #03a66d !important;
+	border-radius: 0;
+}
+
+#nav-user-pic{
+	height: 37px;
+	width: 37px;
+	position: relative;
+}
+
+.navbar{
+	min-height: 76px;
+}
+
+.navbar-right{	
+	font-size: 17px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    letter-spacing: 0.9px;
+    margin: auto;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.navbar-brand>img {
+    top: 5px;
+    position: relative;
+}
+
+.secondary-nav{
+	background-color: #ffffff;
+	border-bottom: 2px solid #e6e9ee;
+	position: relative;
+	top: -20px;
+}
+
+.secondary-nav .nav>li>a{
+	color: #ffffff;
+	padding: 20px 0px;
+    font-size: 15px;
+	color: #7E8EA3
+}	
+
+.secondary-nav .nav>li>a:hover,
+.secondary-nav .nav>li>a.active,
+.secondary-nav .nav>li>a:focus{
+	color: #354052;
+	border-bottom: 2px solid #03a66d;
+	background-color: transparent;
+	
+}
+
+.navbar-default .nav>li>a {
+    padding: 0;
+}
+
+#L_login>span>i.fa-facebook{
+	position: relative;
+    left: -10px;
+}
+
+.navbar-right .glyphicon.glyphicon-menu-down{
+	top: 4px;
+    padding-left: 10px;
+}
+
+.navbar-right .dropdown>.dropdown-toggle{
+	font-weight: 100 !important;
+}
+
+#Luser_prof{
+	position: relative;
+	right: 15px;
+}
+
+.navbar-default .navbar-nav>.open>a,
+ .navbar-default .navbar-nav>.open>a:focus, 
+ .navbar-default .navbar-nav>.open>a:hover,
+ .navbar-default .navbar-nav>.open>a:visited{
+	background-color: transparent;
+	color: #ffffff;
+}
+
+#Lnew_msg{
+	background-color: #ff5f5f;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+@media (min-width: 768px){
+
+	.secondary-nav .nav>li{	
+		padding-right: 90px;
+	}
+
+	.secondary-nav .nav.navbar-nav{
+		padding-left: 160px;
+	}
+
+	.navbar-default .navbar-nav .li-right{
+		padding-right: 30px;
+	}
+
+	.navbar-default .navbar-nav>li {
+    	padding-left: 80px;
+	}
+
+	.navbar-default .navbar-nav>li>a {
+	    padding-top: 15px;
+	    padding-bottom: 1px;
+	}
+}
+
+
+.nav2 > li.dropdown2.open {
+  position: static;
+}
+
+.nav2 > li.dropdown2.open .dropdown-menu2 {
+  display: list-item;
+  border-radius: 0px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+.dropdown-menu2 > li {
+  display: table-cell;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.dropdown-menu2>li:first-child>a {
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-menu2 > li {
+    display: block;
+  }
+}
+
+#L_login {
+    padding: 3px 35px;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid #ffffff;
+}
+
+#L_login:hover, 
+#L_login:focus {
+    background-color: transparent;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+.navbar-default .navbar-nav>li>a:first-child:hover{
+	border-bottom: 2px solid #ffffff;
+	color: #ffffff;
+
+}
+
+.navbar-default .navbar-nav>li:last-child>a:hover{
+	border-bottom: none !important;
+}
+
+#Llogout_user{
+	color: #ff5f5f;
+	font-weight: bold;
+}
+
+

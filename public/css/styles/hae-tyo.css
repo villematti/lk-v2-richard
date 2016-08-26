@@ -1,0 +1,208 @@
+
+body, html{
+	width: 100%;
+}
+/*Cover image*/
+.bg-img{
+	background-image:url('/img/photos/Header photo jobs.png');
+	height: 300px;
+	background-repeat: no-repeat; 
+ 	background-size: cover;
+	margin-top: -90px;
+	background-position: center;
+}
+
+.bg-img h1{
+	text-align: center;
+	color: #ffffff;
+	margin-top: 140px;
+	font-size: 44px;
+    letter-spacing: 1.45px;
+    line-height: 50px;
+}
+
+.acct-rw{
+	padding-top: 60px;
+	padding-bottom: 150px;
+}
+
+.acct-rw .each-dv{
+	padding-top: 35px;
+}
+
+.acct-rw .each-dv label,
+.acct-rw .have-acc label{
+	color: #808080;
+}
+
+.acct-rw .have-acc .well{
+	margin-bottom: 0;
+	padding-right: 25px;
+	padding-left: 25px;
+	background-color: #fafafa;
+	color: #808080;
+}
+
+div.job-title .form-control::-moz-placeholder {
+  color: #808080;
+}
+
+div.job-title .form-control:-ms-input-placeholder {
+  color: #808080;
+}
+div.job-title .form-control::-webkit-input-placeholder {
+  color: #808080;
+}
+
+.acct-rw .form-control{
+	padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.have-acc .well p{
+	line-height: 2;
+}
+
+.each-dv.chs-fl-btn button{
+	display: block;
+}
+
+.each-dv.chs-fl-btn{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.each-dv.short-desc textarea{
+	padding-top: 10px !important;
+}
+
+.each-dv.job-title .form-control{
+	color: #808080;
+	background-color: #fafafa;
+}
+
+button#btn-prevw{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #00ae71;
+	border-color: #00ae71;
+}
+
+button#btn-prevw:hover{
+	background-color: #03a66d;
+	border-color: #03a66d;
+}
+
+.each-dv.short-desc button,
+.each-dv.chs-fl-btn button{
+	padding: 15px 38px;
+}
+
+.bg2-img {
+    background-image: url('/img/photos/footer photo.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.bg2-img .row {
+    text-align: center;
+    margin-top: 96px;
+}
+
+.bg2-img .lokaldo-logo{
+	height: 138px;
+    width: 138px;
+}
+
+.bg2-img .download-icon{
+    width: 198px;
+    height: 58px;
+    margin-top: 30px !important;
+}
+
+.bg2-img h3{
+	text-align: center;
+	font-size: 30px;
+    color: #FFFFFF;
+    line-height: 51.42px;
+    margin-top: 20px;
+}
+
+.max-lmt{
+	font-size: 12px;
+	color: #808080;
+	margin-top: 5px;
+}
+
+.each-dv.or{
+	padding-top: 0;
+	margin-bottom: 0;
+	color: #adadad;
+}
+
+.each-dv.or label{
+	color: #adadad;
+}
+
+#chs-fl{
+	background-color: #02b073;
+    border-color: #02b073;
+}
+
+#chs-fl:hover{
+	background-color: #03a66d;
+	border-color: #03a66d;
+}
+
+#rcrd-nw{
+	background-color: #fe4241;
+    border-color: #fe4241;
+}
+
+#rcrd-nw:hover{
+	background-color: #f72b2c;
+    border-color: #f72b2c;
+}
+
+.each-dv select.btn-default{
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #808080;
+}
+.each-dv .exp-date input{
+	padding-left: 15px;
+}
+
+.lv-info{
+	font-size: 12px;
+    color: #808080;
+    margin-top: 5px
+}
+
+.acct-pdb{
+	padding-bottom: 100px !important;
+}
+
+.chs-fl-btn.chs-fl-btn-1{
+	padding-bottom: 50px;
+	padding-top: 0;
+}
+
+
+#peysbuk-lagin{
+	font-size: 18px;
+    margin-right: 10px !important;
+    position: relative;
+    top: 3px;
+}
+
+@media screen and (min-width:768px){
+	.have-acc button{
+		float: right;
+		margin-top: 15px;
+	}
+}
+

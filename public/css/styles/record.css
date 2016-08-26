@@ -1,0 +1,134 @@
+/*Cover image*/
+.bg-img{
+	background-image:url('/img/photos/Header photo jobs.png');
+	height: 300px;
+	background-repeat: no-repeat; 
+ 	background-size: cover;
+	margin-top: -90px;
+	background-position: center;
+}
+
+.bg-img h1{
+	text-align: center;
+	color: #ffffff;
+	margin-top: 70px;
+	font-size: 44px;
+    letter-spacing: 1.45px;
+    line-height: 50px;
+}
+
+.bg2-img{
+	background-image:url('/img/photos/footer photo.png');
+	height: 500px;
+	background-repeat: no-repeat; 
+ 	background-size: cover;
+	background-position: left;
+	margin-top: 100px;
+}
+
+.bg2-img .row{
+	text-align: center;
+	margin-top: 96px;
+}
+
+.bg2-img .row h3{
+	text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 51.42px;
+    margin-top: 20px;
+}
+
+.bg2-img .lokaldo-logo{
+	height: 138px;
+	width: 138px;
+}
+
+.bg2-img .download-icon{
+	margin-top: 30px !important;
+    width: 198px;
+    height: 58px;
+}
+
+.rcord-bidyo-cont .row{
+	margin-top: 40px
+}
+
+.rcord-bidyo-cont button{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 40px;
+}
+
+#rcrd-vj {
+    background-color: gray;
+    height: 423px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.heading-rcord{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #808080;
+}
+
+#record-return-btn{
+	background-color: transparent;
+    color: #03a66d;
+    border: 3px solid #03a66d;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#record-return-btn:hover,
+#record-return-btn:focus{
+	background-color: #03a66d;
+    border: 3px solid #03a66d;
+    color: #ffffff;
+    -webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#record-bidyo-rd{
+	background-color: #ff4747;
+	border-color: #ff4747;
+	color: #ffffff;
+	border-radius: 6px;
+    font-weight: bold;
+}
+
+#record-bidyo-rd:hover,
+#record-bidyo-rd:focus{
+	background-color: #e22526;
+	border-color: #e22526;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#record-accept-bidyo{
+	background-color: #03a66d;
+	border-color: #03a66d;
+	color: #ffffff;
+	border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#record-accept-bidyo:hover,
+#record-accept-bidyo:focus{
+	background-color: #007d51;
+	border-color: #007d51;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+    transition: all .5s ease;
+}
